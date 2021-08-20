@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>RTS</title>
+        <!--
+        It seems there are some issues including phaser with require on the current version (2.6.2)
+        We need to add it globally
+          http://www.html5gamedevs.com/topic/13492-problems-with-requirejs-and-new-v230/ -->
+         <script src="assets/javascript/lib/phaser.js"></script>
+         <script src="assets/javascript/lib/phaser-debug.js"></script>
+         <script src="assets/javascript/lib/phaser-inspector.js"></script>
+         <script src="assets/javascript/lib/phaser-modal.js"></script>
+
+        <script src="assets/javascript/lib/easystar.min.js"></script>
+         <script src="assets/javascript/lib/phaser_pathfinding-0.2.0.min.js"></script>
+
+        <script data-main="assets/javascript/main" src="assets/javascript/lib/require.js"></script>
+    </head>
+    <body>
+    </body>
+</html>

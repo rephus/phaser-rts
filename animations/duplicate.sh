@@ -1,0 +1,1 @@
+cp 001.png 002.png && cp 001.png 003.png && cp 001.png 004.png && cp 001.png 005.png && cp 001.png 006.png
